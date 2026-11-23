@@ -10,23 +10,21 @@
   "browser_results": "TEST_RESULTS.json",
   "screenshots": 8,
   "document": {
-    "pages": 10,
-    "rendered_with": "packaged render_docx.py with official hash-verified LibreOffice extracted only in task temp folder",
+    "pages": 11,
+    "primary_file": "COMPLETED_WEEK_12_LAB_WORKSHEET_FORMAT.docx",
+    "canonical_alias": "COMPLETED_WEEK_12_LAB.docx",
+    "format": "Source-derived completed worksheet with original title, metadata, steps/questions/checkpoints, full test columns, inline answers and screenshots, reflection and rubric",
+    "rendered_with": "packaged render_docx.py and task-local LibreOffice",
     "visually_inspected": true,
-    "title_border_removed": true,
-    "final_pages_2_through_7_pixel_identical_to_inspected_first_render": [
-      2,
-      3,
-      4,
-      5,
-      6,
-      7
-    ],
-    "sha256": "02b8456d8bdb5740ff6c974310afcc6fd4ce493cdebba09e0a1a49a8442dbe4f"
+    "source_preserve_only_parts_unchanged": true,
+    "original_unchanged": true,
+    "no_blank_pages": true,
+    "sha256": "96a57a2f8ae865420c38b7fc35e2d3f28917bee43bf1b0787a216d536b125b68"
   },
   "original_worksheet": {
     "modified": false,
     "sha256": "09db138ee19c1edf4d8baa5b9b4b1faeae230c1816de029f04395f105544303d"
   },
-  "scope": "Local web-stack educational adaptation. No .NET build, production deployment, real registration, database, commits or uploads. Graphify was unavailable; relevant vault text notes used."
+  "scope": "Local web-stack educational adaptation. No .NET build, production deployment, real registration, database, commits or uploads. Graphify was unavailable; relevant vault text notes used.",
+  "revision_scope": "Document formatting only; application/source assets and earlier test evidence verified unchanged. Prior report/archive preserved in _previous."
 }

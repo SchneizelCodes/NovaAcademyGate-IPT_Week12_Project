@@ -1,0 +1,182 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 45,
+    "sha256": "a4e464f0fe4c42178f607fa05d14b9f3cea4b58f335e8e2bcc7ec014378bf909"
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 410,
+    "sha256": "3ed03168a505c8cf1e6a9c3c876c010118090f5bd7431fa9d7d548f5bcc17ec2"
+  },
+  {
+    "path": "HANDOFF.md",
+    "bytes": 2463,
+    "sha256": "59bdba0768b8866b2b6901e02836ebf7d2d338918813997a9de4d8cb761cf532"
+  },
+  {
+    "path": "next-env.d.ts",
+    "bytes": 295,
+    "sha256": "1b59d4c6b83807db275d43f3cf2cc8e9323f465fab764eea091cc5becd5bad37"
+  },
+  {
+    "path": "next.config.ts",
+    "bytes": 143,
+    "sha256": "bb3eff8785b94e29a1ca6e7f3cd4a97716821f4bcb6cd979a87fc04849b58e3c"
+  },
+  {
+    "path": "package-lock.json",
+    "bytes": 46456,
+    "sha256": "d05985435200cd976f4a8ec885f788425d57e044697f66e36e3f7a9fee394ad4"
+  },
+  {
+    "path": "package.json",
+    "bytes": 1125,
+    "sha256": "4595dbe5dc7b9ea1f92f8c7e57969507aacf1331ba2a2b321b9a7a6dd6ffa656"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3141,
+    "sha256": "63b577c2917a09454802c00dded6e09f24515c3181307aa34d8482a17cf005f9"
+  },
+  {
+    "path": "START_NOVA.cmd",
+    "bytes": 163,
+    "sha256": "63d0b317f5803d0732d67a5531c0dfe5b9f13cacbf67145fe61073f15bbb655d"
+  },
+  {
+    "path": "tsconfig.json",
+    "bytes": 699,
+    "sha256": "e2c491742b15dcab1d5e8318b6f895f33dd2a87c42442400a795c2fd1857e1f4"
+  },
+  {
+    "path": "app/globals.css",
+    "bytes": 9388,
+    "sha256": "fc9cad855077266a79b0d5a149fb4089cec552a6d8ee843d4f21dc0a68968f7e"
+  },
+  {
+    "path": "app/layout.tsx",
+    "bytes": 377,
+    "sha256": "494dccd91dd37ffb7a5534a7bdad2cfa4f4726c3548335bb836e7d900bc3684f"
+  },
+  {
+    "path": "app/page.tsx",
+    "bytes": 2576,
+    "sha256": "d6fdbfad11142af43ae035d008274d58347d8a52730b46552d6e607f349dd07a"
+  },
+  {
+    "path": "app/api/pilots/route.ts",
+    "bytes": 1443,
+    "sha256": "484f19e3fd9602a913f126666b8f4ec4b8db620563348e594678fa5dbc464303"
+  },
+  {
+    "path": "app/lab/page.tsx",
+    "bytes": 1279,
+    "sha256": "8c1590424cac104886603f0ba84a3ffa49a67dd33de13a05d56f9032e0b375a7"
+  },
+  {
+    "path": "app/lab/[checkpoint]/page.tsx",
+    "bytes": 1249,
+    "sha256": "e1fdac1f82536092878d6abef3f16618dd94e39a7fb52b60f1d2ee2654a28370"
+  },
+  {
+    "path": "components/OrbitScene.tsx",
+    "bytes": 4069,
+    "sha256": "d2ece998616d8c7b2b8f4f7d9da9b19126a0112a93851aa03698faa2c37ff441"
+  },
+  {
+    "path": "components/PilotForm.tsx",
+    "bytes": 6076,
+    "sha256": "e59b75889fb683a0948424f7caaf5ea2f5ba2f12e931fcf5e2f8a0481d23408a"
+  },
+  {
+    "path": "deliverables/COMPLETED_WEEK_12_LAB.docx",
+    "bytes": 980992,
+    "sha256": "02b8456d8bdb5740ff6c974310afcc6fd4ce493cdebba09e0a1a49a8442dbe4f"
+  },
+  {
+    "path": "deliverables/TEST_RESULTS.json",
+    "bytes": 4557,
+    "sha256": "b66378ea10cf323ea2e154948edc656f2c3ae0be9055b76e03d8feae5a0550e8"
+  },
+  {
+    "path": "deliverables/VERIFICATION.json",
+    "bytes": 1079,
+    "sha256": "61df1f0b6d0152ca2f4aa36d8d31998411210cea90f9aedf9fbbec3cfbf7e169"
+  },
+  {
+    "path": "deliverables/screenshots/00_desktop.png",
+    "bytes": 139826,
+    "sha256": "5d20f25e8d52b04c358ec1a094fd591ce38a4b3a67e84995edc290f876f96184"
+  },
+  {
+    "path": "deliverables/screenshots/01_model_source.png",
+    "bytes": 141205,
+    "sha256": "028c751d12805aa59d3a8fd3d3916fb12d39426009a097a98aa88f3636d530db"
+  },
+  {
+    "path": "deliverables/screenshots/02_controller_source.png",
+    "bytes": 82158,
+    "sha256": "ecc726d3d3b60a78f3cac2af7529a1175405beed66a4e61c89b5197cc29acdd5"
+  },
+  {
+    "path": "deliverables/screenshots/03_view_source.png",
+    "bytes": 249375,
+    "sha256": "ca9258aecdf7e0c84ddb1f42aa22a70da7f48aae3922ae6336980da6baa5f650"
+  },
+  {
+    "path": "deliverables/screenshots/04_multiple_errors.png",
+    "bytes": 190823,
+    "sha256": "6bda0e8316de81fd7a310b1b087eee4c6e8dd4632da537d1430c08dcee69e35f"
+  },
+  {
+    "path": "deliverables/screenshots/05_success.png",
+    "bytes": 149606,
+    "sha256": "183c948cb99ab18d0aec5ed61da879978225d3bfee48546c063ab4d1a5e4cf46"
+  },
+  {
+    "path": "deliverables/screenshots/06_launch_date_error.png",
+    "bytes": 179872,
+    "sha256": "7ec2e722d6f039222840dedcb4bbdbbbf03f081557602af8790a541e8d493222"
+  },
+  {
+    "path": "deliverables/screenshots/07_mobile.png",
+    "bytes": 90234,
+    "sha256": "e6a82ac1d829897fdf0c55c83e2c9ba9c33019b68d865605a663ea0e658f95eb"
+  },
+  {
+    "path": "lib/pilot.ts",
+    "bytes": 3023,
+    "sha256": "778b67feb53e5fe2fd5283bc1f71844a07b1e57e5e58a28c071804e27ddeb003"
+  },
+  {
+    "path": "public/fonts/fonts.css",
+    "bytes": 120,
+    "sha256": "0185841d4e8e55cb56bade39dc1fe468c714d647f3df026a8e0cc87968657939"
+  },
+  {
+    "path": "public/fonts/LICENSE.txt",
+    "bytes": 4368,
+    "sha256": "930853ee1daa68554d9e35c8a9175affb74f699fad9a5da6ee5ebe76379d9137"
+  },
+  {
+    "path": "public/fonts/NovaSans.woff2",
+    "bytes": 45224,
+    "sha256": "47855d1c577de88e8528a628130e210be0939216f3b5383fe87b62d4295eb9de"
+  },
+  {
+    "path": "scripts/build-answers.py",
+    "bytes": 13898,
+    "sha256": "35679b899ff14a0ffcdaad1c897094c452a16656daddd6aaf58aa078bd20fb80"
+  },
+  {
+    "path": "scripts/check-browser.mjs",
+    "bytes": 8224,
+    "sha256": "3cd23b97a8b188e9bfdc285f53289fadb3b022e52705a88e7b107de8c6c0d2f7"
+  },
+  {
+    "path": "tests/validation.test.mjs",
+    "bytes": 2438,
+    "sha256": "3bb1f6d096df38b1e0f2d6846878cb55f7bbaaef3841c6e2b6ed8f99d3102ab2"
+  }
+]

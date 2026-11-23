@@ -1,5 +1,10 @@
 [
   {
+    "path": ".gitattributes",
+    "bytes": 66,
+    "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b"
+  },
+  {
     "path": ".gitignore",
     "bytes": 45,
     "sha256": "a4e464f0fe4c42178f607fa05d14b9f3cea4b58f335e8e2bcc7ec014378bf909"
@@ -11,13 +16,13 @@
   },
   {
     "path": "HANDOFF.md",
-    "bytes": 2463,
-    "sha256": "59bdba0768b8866b2b6901e02836ebf7d2d338918813997a9de4d8cb761cf532"
+    "bytes": 3336,
+    "sha256": "eef8c159a5960ca656bb8f23ce8d74d7d849868490081938af455b037cf44905"
   },
   {
     "path": "next-env.d.ts",
-    "bytes": 295,
-    "sha256": "1b59d4c6b83807db275d43f3cf2cc8e9323f465fab764eea091cc5becd5bad37"
+    "bytes": 303,
+    "sha256": "b8b3a344484b959af5e4e3fc1a1609dac3cb9ece0cdeb6c145be29bc4c491000"
   },
   {
     "path": "next.config.ts",
@@ -36,8 +41,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 3141,
-    "sha256": "63b577c2917a09454802c00dded6e09f24515c3181307aa34d8482a17cf005f9"
+    "bytes": 4056,
+    "sha256": "6babfd33c9492c349298e0e72903a9a5c3cbe5d2705f8983569f3a6e23cf11ea"
   },
   {
     "path": "START_NOVA.cmd",
@@ -91,8 +96,18 @@
   },
   {
     "path": "deliverables/COMPLETED_WEEK_12_LAB.docx",
-    "bytes": 980992,
-    "sha256": "02b8456d8bdb5740ff6c974310afcc6fd4ce493cdebba09e0a1a49a8442dbe4f"
+    "bytes": 780268,
+    "sha256": "96a57a2f8ae865420c38b7fc35e2d3f28917bee43bf1b0787a216d536b125b68"
+  },
+  {
+    "path": "deliverables/COMPLETED_WEEK_12_LAB_WORKSHEET_FORMAT.docx",
+    "bytes": 780268,
+    "sha256": "96a57a2f8ae865420c38b7fc35e2d3f28917bee43bf1b0787a216d536b125b68"
+  },
+  {
+    "path": "deliverables/FORMAT_REVIEW.json",
+    "bytes": 981,
+    "sha256": "a46b538ddabd539433fe262b1af4932d308dfede14a0f2383da340865c175d51"
   },
   {
     "path": "deliverables/TEST_RESULTS.json",
@@ -101,8 +116,8 @@
   },
   {
     "path": "deliverables/VERIFICATION.json",
-    "bytes": 1079,
-    "sha256": "61df1f0b6d0152ca2f4aa36d8d31998411210cea90f9aedf9fbbec3cfbf7e169"
+    "bytes": 1441,
+    "sha256": "3ac6f791863ede5ccb305dd35eefa881b9792bf206421249b09401135aad0798"
   },
   {
     "path": "deliverables/screenshots/00_desktop.png",
@@ -168,6 +183,11 @@
     "path": "scripts/build-answers.py",
     "bytes": 13898,
     "sha256": "35679b899ff14a0ffcdaad1c897094c452a16656daddd6aaf58aa078bd20fb80"
+  },
+  {
+    "path": "scripts/build-worksheet-format.py",
+    "bytes": 17601,
+    "sha256": "5bb30c3e04398b11562e40379857059f29bab8c418e14ec81dbca0acbc855319"
   },
   {
     "path": "scripts/check-browser.mjs",

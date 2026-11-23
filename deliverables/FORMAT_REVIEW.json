@@ -1,0 +1,30 @@
+{
+  "original_sha256": "09db138ee19c1edf4d8baa5b9b4b1faeae230c1816de029f04395f105544303d",
+  "preserved_parts": [
+    "word/numbering.xml",
+    "word/settings.xml",
+    "word/fontTable.xml",
+    "word/styles.xml",
+    "_rels/.rels",
+    "word/theme/theme1.xml"
+  ],
+  "edited_parts": [
+    "[Content_Types].xml",
+    "word/_rels/document.xml.rels",
+    "word/document.xml"
+  ],
+  "new_images": 5,
+  "section_repair": "Seven broken pseudo-table sections consolidated to one source-sized portrait section",
+  "final": "C:\\Users\\joshu\\Documents\\GitHub\\Apps\\NovaAcademyGate\\deliverables\\COMPLETED_WEEK_12_LAB_WORKSHEET_FORMAT.docx",
+  "all_11_pages_visually_inspected": true,
+  "unchanged_final_pages_pixel_checked": [
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    10
+  ],
+  "source_audit_limit": "Reference fractional twip attributes break section/style helpers; direct XML geometry/font inventory and renders used. Final geometry audit passed."
+}
