@@ -1,0 +1,184 @@
+{
+  "date": "2026-11-23T07:26:23.780Z",
+  "url": "http://localhost:3212",
+  "cases": [
+    {
+      "id": 1,
+      "data": {
+        "pilotName": "",
+        "age": "25",
+        "email": "a@b.com",
+        "mobile": "09171234567"
+      },
+      "field": "pilotName",
+      "expected": "Every pilot needs a callsign (3 to 20 characters)!",
+      "actual": "Every pilot needs a callsign (3 to 20 characters)!",
+      "pass": true,
+      "serverStatus": 422
+    },
+    {
+      "id": 2,
+      "data": {
+        "pilotName": "Ace",
+        "age": "17",
+        "email": "a@b.com",
+        "mobile": "09171234567"
+      },
+      "field": "age",
+      "expected": "Pilots must be 18 to 60 years old.",
+      "actual": "Pilots must be 18 to 60 years old.",
+      "pass": true,
+      "serverStatus": 422
+    },
+    {
+      "id": 3,
+      "data": {
+        "pilotName": "Ace",
+        "age": "61",
+        "email": "a@b.com",
+        "mobile": "09171234567"
+      },
+      "field": "age",
+      "expected": "Pilots must be 18 to 60 years old.",
+      "actual": "Pilots must be 18 to 60 years old.",
+      "pass": true,
+      "serverStatus": 422
+    },
+    {
+      "id": 4,
+      "data": {
+        "pilotName": "Ace",
+        "age": "25",
+        "email": "banana",
+        "mobile": "09171234567"
+      },
+      "field": "email",
+      "expected": "That email is lost in space.",
+      "actual": "That email is lost in space.",
+      "pass": true,
+      "serverStatus": 422
+    },
+    {
+      "id": 5,
+      "data": {
+        "pilotName": "Ace",
+        "age": "25",
+        "email": "a@b.com",
+        "mobile": ""
+      },
+      "field": "mobile",
+      "expected": "Please enter a valid mobile number.",
+      "actual": "Please enter a valid mobile number.",
+      "pass": true,
+      "serverStatus": 422
+    },
+    {
+      "id": 6,
+      "data": {
+        "pilotName": "Ace",
+        "age": "",
+        "email": "a@b.com",
+        "mobile": "09171234567"
+      },
+      "field": "age",
+      "expected": "Please enter your age.",
+      "actual": "Please enter your age.",
+      "pass": true,
+      "serverStatus": 422
+    },
+    {
+      "id": 7,
+      "data": {
+        "pilotName": "Captain Zoomzoom Starfighter",
+        "age": "25",
+        "email": "a@b.com",
+        "mobile": "09171234567"
+      },
+      "field": "pilotName",
+      "expected": "Every pilot needs a callsign (3 to 20 characters)!",
+      "actual": "Every pilot needs a callsign (3 to 20 characters)!",
+      "pass": true,
+      "serverStatus": 422
+    },
+    {
+      "id": 8,
+      "data": {
+        "pilotName": "Nova",
+        "age": "30",
+        "email": "nova@academy.edu",
+        "mobile": "09171234567"
+      },
+      "expected": "Welcome aboard, Nova!",
+      "actual": "Welcome aboard, Nova!",
+      "pass": true,
+      "serverStatus": 200
+    }
+  ],
+  "additional": [
+    {
+      "name": "missing origin",
+      "expected": 403,
+      "actual": 403,
+      "pass": true
+    },
+    {
+      "name": "cross origin",
+      "expected": 403,
+      "actual": 403,
+      "pass": true
+    },
+    {
+      "name": "malformed JSON",
+      "expected": 400,
+      "actual": 400,
+      "pass": true
+    },
+    {
+      "name": "wrong content type",
+      "expected": 415,
+      "actual": 415,
+      "pass": true
+    },
+    {
+      "name": "oversized body",
+      "expected": 413,
+      "actual": 413,
+      "pass": true
+    }
+  ],
+  "checks": {
+    "worksheetUI": 8,
+    "worksheetAPI": 8,
+    "threeCanvas": true,
+    "emptyErrors": 4,
+    "firstErrorFocus": true,
+    "preservedInvalidValues": true,
+    "successClearsForm": true,
+    "launchYesterdayRejected": true,
+    "launchTodayAccepted": true,
+    "networkFailurePreservesInput": true,
+    "mobile390And320NoOverflow": true,
+    "reducedMotion": true,
+    "pageErrors": []
+  },
+  "experiments": [
+    {
+      "name": "Remove the age range in an isolated validator copy",
+      "input": {
+        "pilotName": "Ace",
+        "age": "5",
+        "email": "a@b.com",
+        "mobile": "09171234567"
+      },
+      "actual": "Accepted age 5 after removing the range; original validator rejects it.",
+      "pass": true
+    },
+    {
+      "name": "Ignore the validation result in an isolated success-branch harness",
+      "input": {},
+      "actual": "Blank data produced Welcome aboard, ! despite validation.ok being false.",
+      "pass": true
+    }
+  ],
+  "scope": "Executed in local Chromium against production Next.js. Break-it experiments use isolated copies/harness; live validation remains enabled. No real registration is stored."
+}

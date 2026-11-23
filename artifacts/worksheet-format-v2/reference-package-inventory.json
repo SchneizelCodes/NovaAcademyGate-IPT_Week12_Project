@@ -1,0 +1,47 @@
+[
+  {
+    "part": "word/numbering.xml",
+    "bytes": 1690,
+    "sha256": "d2a3e08465525eee874ea10d780540816951a37b115e90f1cd56aefdd76adc2e"
+  },
+  {
+    "part": "word/settings.xml",
+    "bytes": 2152,
+    "sha256": "26f2853fde05b88d4b0a9da0bb016d56a896901f60c9272dddf33c3f3fa61e4a"
+  },
+  {
+    "part": "word/fontTable.xml",
+    "bytes": 1745,
+    "sha256": "ff8d2045352137f4cc044858eb667ff87aae07df7ed741c2dd3963f147ade12f"
+  },
+  {
+    "part": "word/styles.xml",
+    "bytes": 5598,
+    "sha256": "c3484cf2b0cf9512730051085ba2878d975c6951923366aacf1aba9dc5ce1367"
+  },
+  {
+    "part": "word/document.xml",
+    "bytes": 192637,
+    "sha256": "a4bb421e39e8e62f83deea3b047e4d4802f1c5d80df59e36d55815f93278df98"
+  },
+  {
+    "part": "word/_rels/document.xml.rels",
+    "bytes": 812,
+    "sha256": "2f88ba313d7d77c73d3737c12338686a29f13f029e69a783e026da83a7dd891c"
+  },
+  {
+    "part": "_rels/.rels",
+    "bytes": 298,
+    "sha256": "1cc87395d4a229f21c23af406724de12dd9454071925f983e4b648a7b2be8cc5"
+  },
+  {
+    "part": "word/theme/theme1.xml",
+    "bytes": 7643,
+    "sha256": "b2295d3198893d2c03f5e584c749a15751b798aefdcd9bee2889f13903d68cb2"
+  },
+  {
+    "part": "[Content_Types].xml",
+    "bytes": 1172,
+    "sha256": "70100a2bc0a6ff5fcce135d1b8ab0d9f108c4cdd39ead3ce88eda6ca2b6d7581"
+  }
+]
